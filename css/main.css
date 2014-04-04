@@ -1,0 +1,136 @@
+
+html { 
+background: url(../img/starWars.jpg);
+}
+
+
+body {
+	font: 16px/21px normal normal Georgia, "Times New Roman" serif;
+	color: #c9c9c9;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+
+/* -------------------------- HEADER -------------------------- */
+
+.header {
+	padding-bottom: 40px;
+}
+
+#headShot {
+	margin-left: 20%;
+	margin-top: 30px;
+	width: 450px;
+	height:300px;
+	background:url(../img/headShot.jpg) no-repeat;
+	background-size:100%;
+}
+
+.header h1 {
+	width: 800px;
+	font-size: 66px;
+	color: rgba(236, 205, 63, 0.9);
+	position:relative;
+	margin: 0;
+	margin-top: 50px;
+	padding: 0;
+	font-family: 'Cinzel', serif;
+}
+
+.header h2 {
+	text-align: right;
+	font-size: 26px;
+	color: rgba(236, 205, 63, 0.9);
+	padding: 0;
+	margin-right: 130px;
+	margin-top: 30px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* -------------------------- main -------------------------- */
+
+
+.main {
+	padding-top: 3px;
+	background-color: rgba(20, 93, 152, 0.3);
+}
+
+h3 {
+	color: rgba(236, 205, 63, 0.9);
+	font-size: 36px;
+	height: 67px;
+	font-family: 'Cinzel', serif;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+ol {
+	width: 70%;
+	margin-left:5%;
+}
+
+ol li {
+	
+	padding: 25px 5px;
+}
+
+ol li h4 {
+	color: #c9c9c9;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+ol li h5 {
+	color: rgba(236, 205, 63, 0.9);
+	font-size: 14px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+ol li span {
+	color: #c9c9c9;
+	font-style: italic;
+	font-size: 12px;
+}
+
+ol li p {
+	font-size: 18px;
+	
+}
+ol li {
+	margin-bottom:50px;
+}
+
+/* -------------------------- @ 480px -------------------------- */
+
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+
+
+.header h1 {
+	max-width: 460px;
+	font-size: 38px;
+	color: rgba(236, 205, 63, 0.9);
+	font-family: 'Cinzel', serif;
+}
+
+.header h2 {
+	text-align: right;
+	font-size: 16px;
+	color: rgba(236, 205, 63, 0.9);
+	padding: 0;
+	margin-right: 40px;
+	margin-top: 10px;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+#headShot {
+	margin-left: 100px;
+	margin-top: 30px;
+	width: 250px;
+	height: 250px;
+	background:url(../img/headShot.png) no-repeat;
+	background-size:100%;
+}
